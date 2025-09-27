@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "64875676696",
-    "project_id": "kiii-9113e",
-    "storage_bucket": "kiii-9113e.firebasestorage.app"
+    "project_number": "",
+    "project_id": "",
+    "storage_bucket": ""
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:64875676696:android:ab209fc684b9d974422f6d",
+        "mobilesdk_app_id": "",
         "android_client_info": {
-          "package_name": "com.example.ki"
+          "package_name": ""
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBDHY4X7ZRwSWCga0DDUr4cn2_4bBFmyu4"
+          "current_key": ""
         }
       ],
       "services": {
