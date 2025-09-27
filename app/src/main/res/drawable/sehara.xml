@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- First stripe -->
+    <item android:top="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FfffFF" /> <!-- Stripe color (white) -->
+            <corners android:radius="8dp" /> <!-- Rounded corners -->
+        </shape>
+    </item>
+
+    <!-- Second stripe -->
+    <item android:top="40dp"> <!-- Space between the first and second stripe -->
+        <shape android:shape="rectangle">
+            <solid android:color="#Ffaaff" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+
+    <!-- Third stripe -->
+    <item android:top="80dp"> <!-- Space between the second and third stripe -->
+        <shape android:shape="rectangle">
+            <solid android:color="#FddFFF" />
+            <corners android:radius="8dp" />
+        </shape>
+    </item>
+</layer-list>
+
+

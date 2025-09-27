@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:forceDarkAllowed="false"
+    android:background="@drawable/gradient"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/naslov"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/kontiki"
+            android:fontFamily="@font/kulen"
+            android:gravity="center"
+            android:padding="1dp"
+            android:scaleType="centerCrop"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/naslov2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kulen"
+            android:gravity="center"
+            android:padding="1dp"
+            android:text="CRNI STEK"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/dodaj"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:hint="KI:"
+            android:textColorHint="#42eba7"
+            android:padding="8dp"
+            android:textColor="#42eba7"
+            android:fontFamily="@font/kulen"/>
+
+        <ImageButton
+            android:id="@+id/addButton"
+            android:layout_width="50dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/plus1"
+            android:contentDescription="Add"
+            android:scaleType="fitCenter"
+            android:src="@drawable/plus" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/rijec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

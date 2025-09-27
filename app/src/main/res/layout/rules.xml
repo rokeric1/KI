@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:forceDarkAllowed="false"
+    android:background="@drawable/gradient"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:id="@+id/naslov"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:background="@drawable/kontiki"
+            android:fontFamily="@font/kulen"
+            android:gravity="center"
+            android:padding="1dp"
+            android:scaleType="centerCrop"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp" />
+
+        <TextView
+            android:id="@+id/naslov2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kulen"
+            android:gravity="center"
+            android:padding="1dp"
+            android:text="PRAVILA"
+            android:textColor="#FFFFFF"
+            android:textSize="40dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/dodaj"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:hint="PRAVILO:"
+            android:textColorHint="#42eba7"
+            android:padding="8dp"
+            android:textColor="#42eba7"
+            android:fontFamily="@font/kulen"/>
+
+        <ImageButton
+            android:id="@+id/addButton"
+            android:layout_width="50dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/plus1"
+            android:contentDescription="Add"
+            android:scaleType="fitCenter"
+            android:src="@drawable/plus" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="15dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/dodaj"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/nameInput2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:hint="OPIS:"
+            android:textColorHint="#42eba7"
+            android:padding="8dp"
+            android:textColor="#42eba7"
+            android:fontFamily="@font/kulen"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="25dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/zelje"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kulen"
+            android:gravity="center"
+            android:text="ZELJE"
+            android:background="@drawable/dodaj3"
+            android:scaleType="centerCrop"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:visibility="visible"/>
+
+
+
+        <Button
+            android:id="@+id/zakon"
+            android:layout_width="0dp"
+            android:layout_weight="0.5"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/kulen"
+            android:gravity="center"
+            android:text="PRAVILA"
+            android:background="@drawable/dodaj4"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+    <ScrollView
+        android:id="@+id/zeljeScr"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:visibility="visible"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/rijec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+        <ScrollView
+            android:id="@+id/pravilaScr"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:visibility="gone"
+            >
+            <LinearLayout
+                android:id="@+id/rijec2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="5dp">
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>

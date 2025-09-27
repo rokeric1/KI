@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:forceDarkAllowed="false"
+    android:background="@drawable/gradient"
+    android:padding="16dp"
+    >
+    <View
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        >
+
+
+        <Button
+            android:id="@+id/turn"
+            android:layout_width="70dp"
+            android:layout_height="37dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/dodaj"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="6dp"
+            android:textAllCaps="false"
+            android:text="Efe"
+            android:textColor="#42eba7"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/seharaB"
+            android:layout_width="50dp"
+            android:layout_height="37dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/dodaj2"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="4dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img"
+            android:text="Action"
+            android:textColor="#42eba7"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1" />
+
+    <ImageView
+        android:id="@+id/image_placeholder"
+        android:layout_width="318dp"
+        android:layout_height="316dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-20dp"
+        android:background="@drawable/kruzic"
+        android:scaleType="fitCenter"
+        android:src="@drawable/kontiki"
+        />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/numberOfNames"
+        android:layout_width="wrap_content"
+        android:layout_height="205dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/kulen"
+        android:text="256"
+        android:textColor="#FFFFFF"
+        android:textSize="150dp" />
+    <View
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/dodaj"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="0dp"
+            android:hint="KI:"
+            android:padding="8dp"
+            android:textColor="#42eba7" />
+
+        <ImageButton
+            android:id="@+id/addButton"
+            android:layout_width="50dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/plus1"
+            android:contentDescription="Add"
+            android:scaleType="fitCenter"
+            android:src="@drawable/plus" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>
+
+
